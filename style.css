@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    
+    border: border-box;
+}
+.navbar{
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.nav-name{
+    margin-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-elements{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 7px;
+    display: flex;
+}
+.space{
+    margin-left: 50px;
+}
+.hero-section {
+    background-image: url("32947939_491362538070.jpg");
+    height: 600px;
+    background-size: cover;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; 
+ 
+}
+
+.hero-message {
+    position: absolute;
+    bottom: 450px; /* 100px from the bottom of hero-section */
+    margin-left:100px; /* Or adjust as needed for horizontal positioning */
+    width: 100%; /* Ensure it spans the width if you want to left-align text */
+    text-align: left; /* If you want the text to be left-aligned within the hero-message */
+
+    /* If you still want to use flexbox for internal alignment within hero-message */
+    display: flex;
+    justify-content: left; /* Or flex-start */
+    align-items: flex-end; /* This will only affect content *within* hero-message if it has height */
+   font-size: xx-large;
+    font-weight: bold;
+}
+font{
+    
+}
+.intro{
+    bottom: 400px;
+    color: red;
+}
+.intro-paragraph{
+    font-size: large;
+bottom: 300px;
+font-weight: lighter;
+width: 50%;
+
+}
+.icons  {
+    color: blue;
+    bottom: 200px;
+    left: 50px;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    
+}
+.in{
+    margin-left: 40px; 
+    color: rgb(1, 1, 153);
+    
+}
+.wa{
+     margin-left: 40px; 
+    color:green;
+   
+}
+.inst{
+    margin-left: 40px; 
+    color:rgb(161, 3, 69);  
+}
