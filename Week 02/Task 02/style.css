@@ -1,0 +1,105 @@
+.nav-bar{
+  height: 100px;
+  width: auto;
+ 
+}
+.logo{
+  background-size:contain;
+    background-image: url("Logo\ Black.png");
+    height: 80px;
+    width: 70px;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+    
+}
+.lheading{
+    display:flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:15px;
+    font-size: 45px;
+    font-weight: bold;
+   margin-left: 80px;
+  align-items: center;
+   
+   
+ 
+}
+.lh-blue{
+    color: rgb(18, 0, 175);
+    
+}
+.lh-orange{
+    color: rgb(255, 81, 0);
+}
+.nav-elements{
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 43);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin-left: 120px;
+  gap: 60px;
+}
+.main-heading{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  height: auto;
+  width: 800px;
+  font-weight: bolder;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.blue{
+  color: rgb(18, 0, 175);
+}
+.orange{
+  color: rgb(255, 81, 0);
+}
+.main-text{
+  margin-top: 20px;
+  margin-left: 90px;
+  width: 600px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 43);
+}
+.button{
+  color: white;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(255, 81, 0);
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+  margin-top: 20px;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+ .image {
+  background-image: url("ChatGPT Image Jul 4, 2025, 10_42_55 AM.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 570px;
+  width: 470px;
+  position: absolute;
+  top: 150px;    
+  right: 50px;   
+ }
+.image-1 {
+  background-image: url("trar_0nc6_220517.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 235px;    
+  right: 420px;   
+  border: 1px solid;
+  border-color: rgb(209, 209, 209);
+  border-radius: 8px;
+ }
